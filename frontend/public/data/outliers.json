@@ -1,0 +1,1555 @@
+{
+  "iqr_outliers": {
+    "GDPpc": {
+      "q1": 2011.152,
+      "q3": 15777.778,
+      "iqr": 13766.625,
+      "lower_fence": -18638.786,
+      "upper_fence": 36427.716,
+      "high_count": 18,
+      "low_count": 0,
+      "high_outliers": [
+        {
+          "Country": "Liechtenstein",
+          "GDPpc": 172368.42105263157
+        },
+        {
+          "Country": "Luxembourg",
+          "GDPpc": 110232.55813953489
+        },
+        {
+          "Country": "Ireland",
+          "GDPpc": 77584.83033932136
+        },
+        {
+          "Country": "Norway",
+          "GDPpc": 75390.65420560748
+        },
+        {
+          "Country": "Iceland",
+          "GDPpc": 67008.31024930748
+        },
+        {
+          "Country": "Qatar",
+          "GDPpc": 64830.38869257951
+        },
+        {
+          "Country": "Denmark",
+          "GDPpc": 59807.56013745705
+        },
+        {
+          "Country": "Australia",
+          "GDPpc": 54042.685292976326
+        },
+        {
+          "Country": "Netherlands",
+          "GDPpc": 52456.433929601844
+        },
+        {
+          "Country": "Austria",
+          "GDPpc": 50260.13513513513
+        },
+        {
+          "Country": "Finland",
+          "GDPpc": 48688.40579710145
+        },
+        {
+          "Country": "Canada",
+          "GDPpc": 46943.22789943228
+        },
+        {
+          "Country": "Germany",
+          "GDPpc": 46260.43546252857
+        },
+        {
+          "Country": "Belgium",
+          "GDPpc": 46133.275261324045
+        },
+        {
+          "Country": "Israel",
+          "GDPpc": 43657.45856353591
+        },
+        {
+          "Country": "New Zealand",
+          "GDPpc": 42754.13223140496
+        },
+        {
+          "Country": "France",
+          "GDPpc": 40493.88607217417
+        },
+        {
+          "Country": "Japan",
+          "GDPpc": 40258.02107264517
+        }
+      ],
+      "low_outliers": []
+    },
+    "LifeExp": {
+      "q1": 66.9,
+      "q3": 77.6,
+      "iqr": 10.7,
+      "lower_fence": 50.85,
+      "upper_fence": 93.65,
+      "high_count": 0,
+      "low_count": 0,
+      "high_outliers": [],
+      "low_outliers": []
+    },
+    "InfMort": {
+      "q1": 6.1,
+      "q3": 32.75,
+      "iqr": 26.65,
+      "lower_fence": -33.875,
+      "upper_fence": 72.725,
+      "high_count": 2,
+      "low_count": 0,
+      "high_outliers": [
+        {
+          "Country": "Central African Republic",
+          "InfMort": 84.5,
+          "GDPpc": 467.36842105263156
+        },
+        {
+          "Country": "Nigeria",
+          "InfMort": 75.7,
+          "GDPpc": 2229.896496815287
+        }
+      ],
+      "low_outliers": []
+    },
+    "Phys": {
+      "q1": 0.34,
+      "q3": 2.935,
+      "iqr": 2.595,
+      "lower_fence": -3.553,
+      "upper_fence": 6.828,
+      "high_count": 2,
+      "low_count": 0,
+      "high_outliers": [
+        {
+          "Country": "Cuba",
+          "Phys": 8.42,
+          "GDPpc": 8827.890556045895
+        },
+        {
+          "Country": "Georgia",
+          "Phys": 7.12,
+          "GDPpc": 4768.817204301075
+        }
+      ],
+      "low_outliers": []
+    },
+    "Unemp": {
+      "q1": 3.343,
+      "q3": 9.075,
+      "iqr": 5.732,
+      "lower_fence": -5.256,
+      "upper_fence": 17.674,
+      "high_count": 8,
+      "low_count": 0,
+      "high_outliers": [
+        {
+          "Country": "Lesotho",
+          "Unemp": 23.41,
+          "GDPpc": 1154.9295774647887
+        },
+        {
+          "Country": "Saint Lucia",
+          "Unemp": 20.71,
+          "GDPpc": 11584.699453551913
+        },
+        {
+          "Country": "Namibia",
+          "Unemp": 20.27,
+          "GDPpc": 4967.871485943775
+        },
+        {
+          "Country": "Gabon",
+          "Unemp": 20.0,
+          "GDPpc": 7677.419354838709
+        },
+        {
+          "Country": "Saint Vincent and the Grenadines",
+          "Unemp": 18.88,
+          "GDPpc": 8250.0
+        },
+        {
+          "Country": "Libya",
+          "Unemp": 18.56,
+          "GDPpc": 7681.41592920354
+        },
+        {
+          "Country": "Bosnia and Herzegovina",
+          "Unemp": 18.42,
+          "GDPpc": 6075.757575757576
+        },
+        {
+          "Country": "Botswana",
+          "Unemp": 18.19,
+          "GDPpc": 7804.255319148936
+        }
+      ],
+      "low_outliers": []
+    },
+    "Tertiary": {
+      "q1": 12.55,
+      "q3": 63.3,
+      "iqr": 50.75,
+      "lower_fence": -63.575,
+      "upper_fence": 139.425,
+      "high_count": 0,
+      "low_count": 0,
+      "high_outliers": [],
+      "low_outliers": []
+    },
+    "CO2pc": {
+      "q1": 0.858,
+      "q3": 5.522,
+      "iqr": 4.663,
+      "lower_fence": -6.137,
+      "upper_fence": 12.517,
+      "high_count": 8,
+      "low_count": 0,
+      "high_outliers": [
+        {
+          "Country": "Qatar",
+          "CO2pc": 36.48727915194346,
+          "GDPpc": 64830.38869257951
+        },
+        {
+          "Country": "Kuwait",
+          "CO2pc": 23.452256532066507,
+          "GDPpc": 32009.501187648453
+        },
+        {
+          "Country": "Bahrain",
+          "CO2pc": 21.129333333333335,
+          "GDPpc": 25713.333333333332
+        },
+        {
+          "Country": "Brunei",
+          "CO2pc": 17.699769053117784,
+          "GDPpc": 31108.545034642033
+        },
+        {
+          "Country": "Canada",
+          "CO2pc": 14.730846174641796,
+          "GDPpc": 46943.22789943228
+        },
+        {
+          "Country": "Australia",
+          "CO2pc": 14.587039192859915,
+          "GDPpc": 54042.685292976326
+        },
+        {
+          "Country": "Luxembourg",
+          "CO2pc": 13.934883720930232,
+          "GDPpc": 110232.55813953489
+        },
+        {
+          "Country": "Kazakhstan",
+          "CO2pc": 13.355321447866018,
+          "GDPpc": 9733.117233927607
+        }
+      ],
+      "low_outliers": []
+    },
+    "Forest": {
+      "q1": 12.5,
+      "q3": 48.4,
+      "iqr": 35.9,
+      "lower_fence": -41.35,
+      "upper_fence": 102.25,
+      "high_count": 0,
+      "low_count": 0,
+      "high_outliers": [],
+      "low_outliers": []
+    }
+  },
+  "regression_residuals": {
+    "regression": {
+      "r": 0.8299,
+      "r2": 0.6887,
+      "slope": 10.0037,
+      "intercept": 34.5222,
+      "slope_per_doubling": 3.0114,
+      "p_value": 4.848960774218715e-37,
+      "n": 141
+    },
+    "residual_sd": 4.167,
+    "largest_negative_residuals": [
+      {
+        "Country": "Equatorial Guinea",
+        "GDPpc": 8110.294117647059,
+        "LifeExp": 58.4,
+        "fitted_LifeExp": 73.62683595409453,
+        "residual_LifeExp": -15.226835954094533
+      },
+      {
+        "Country": "Nigeria",
+        "GDPpc": 2229.896496815287,
+        "LifeExp": 54.3,
+        "fitted_LifeExp": 68.0172660197542,
+        "residual_LifeExp": -13.717266019754206
+      },
+      {
+        "Country": "Lesotho",
+        "GDPpc": 1154.9295774647887,
+        "LifeExp": 53.7,
+        "fitted_LifeExp": 65.15892895145153,
+        "residual_LifeExp": -11.458928951451526
+      },
+      {
+        "Country": "Ivory Coast",
+        "GDPpc": 2285.769828926905,
+        "LifeExp": 57.4,
+        "fitted_LifeExp": 68.12478323665957,
+        "residual_LifeExp": -10.724783236659569
+      },
+      {
+        "Country": "Chad",
+        "GDPpc": 709.0909090909091,
+        "LifeExp": 54.0,
+        "fitted_LifeExp": 63.03961823714682,
+        "residual_LifeExp": -9.039618237146819
+      },
+      {
+        "Country": "Angola",
+        "GDPpc": 2973.2956330505813,
+        "LifeExp": 60.8,
+        "fitted_LifeExp": 69.26725691343633,
+        "residual_LifeExp": -8.46725691343633
+      },
+      {
+        "Country": "Central African Republic",
+        "GDPpc": 467.36842105263156,
+        "LifeExp": 52.8,
+        "fitted_LifeExp": 61.22853054823622,
+        "residual_LifeExp": -8.428530548236225
+      },
+      {
+        "Country": "Namibia",
+        "GDPpc": 4967.871485943775,
+        "LifeExp": 63.4,
+        "fitted_LifeExp": 71.4973948819313,
+        "residual_LifeExp": -8.0973948819313
+      },
+      {
+        "Country": "Palau",
+        "GDPpc": 15777.777777777777,
+        "LifeExp": 69.1,
+        "fitted_LifeExp": 76.51798531203352,
+        "residual_LifeExp": -7.417985312033522
+      },
+      {
+        "Country": "Cameroon",
+        "GDPpc": 1497.6816074188562,
+        "LifeExp": 58.9,
+        "fitted_LifeExp": 66.28798167787446,
+        "residual_LifeExp": -7.387981677874457
+      }
+    ],
+    "largest_positive_residuals": [
+      {
+        "Country": "Nicaragua",
+        "GDPpc": 1911.4503816793892,
+        "LifeExp": 74.3,
+        "fitted_LifeExp": 67.34780449059488,
+        "residual_LifeExp": 6.952195509405115
+      },
+      {
+        "Country": "Morocco",
+        "GDPpc": 3216.7434299647794,
+        "LifeExp": 76.5,
+        "fitted_LifeExp": 69.60916521651686,
+        "residual_LifeExp": 6.890834783483143
+      },
+      {
+        "Country": "Albania",
+        "GDPpc": 5361.403508771929,
+        "LifeExp": 78.5,
+        "fitted_LifeExp": 71.82859739170127,
+        "residual_LifeExp": 6.6714026082987345
+      },
+      {
+        "Country": "North Korea",
+        "GDPpc": 1250.4869497467862,
+        "LifeExp": 72.1,
+        "fitted_LifeExp": 65.50429182217997,
+        "residual_LifeExp": 6.595708177820029
+      },
+      {
+        "Country": "Honduras",
+        "GDPpc": 2574.358974358974,
+        "LifeExp": 75.1,
+        "fitted_LifeExp": 68.64133819564798,
+        "residual_LifeExp": 6.458661804352019
+      },
+      {
+        "Country": "Eritrea",
+        "GDPpc": 327.0142180094786,
+        "LifeExp": 65.9,
+        "fitted_LifeExp": 59.67703600382214,
+        "residual_LifeExp": 6.222963996177867
+      },
+      {
+        "Country": "Algeria",
+        "GDPpc": 3948.664343786295,
+        "LifeExp": 76.7,
+        "fitted_LifeExp": 70.4998288119464,
+        "residual_LifeExp": 6.200171188053602
+      },
+      {
+        "Country": "Kyrgyzstan",
+        "GDPpc": 1308.049535603715,
+        "LifeExp": 71.4,
+        "fitted_LifeExp": 65.69981358018948,
+        "residual_LifeExp": 5.700186419810521
+      },
+      {
+        "Country": "Nepal",
+        "GDPpc": 1070.954211814051,
+        "LifeExp": 70.5,
+        "fitted_LifeExp": 64.83096303691553,
+        "residual_LifeExp": 5.669036963084466
+      },
+      {
+        "Country": "Lebanon",
+        "GDPpc": 7779.883381924198,
+        "LifeExp": 78.9,
+        "fitted_LifeExp": 73.44613471717861,
+        "residual_LifeExp": 5.453865282821397
+      }
+    ],
+    "all_residuals": [
+      {
+        "Country": "Equatorial Guinea",
+        "GDPpc": 8110.294117647059,
+        "LifeExp": 58.4,
+        "fitted_LifeExp": 73.62683595409453,
+        "residual_LifeExp": -15.226835954094533,
+        "residual_zscore": -3.6540350983074577
+      },
+      {
+        "Country": "Nigeria",
+        "GDPpc": 2229.896496815287,
+        "LifeExp": 54.3,
+        "fitted_LifeExp": 68.0172660197542,
+        "residual_LifeExp": -13.717266019754206,
+        "residual_zscore": -3.29177851788203
+      },
+      {
+        "Country": "Lesotho",
+        "GDPpc": 1154.9295774647887,
+        "LifeExp": 53.7,
+        "fitted_LifeExp": 65.15892895145153,
+        "residual_LifeExp": -11.458928951451526,
+        "residual_zscore": -2.7498377669430436
+      },
+      {
+        "Country": "Ivory Coast",
+        "GDPpc": 2285.769828926905,
+        "LifeExp": 57.4,
+        "fitted_LifeExp": 68.12478323665957,
+        "residual_LifeExp": -10.724783236659569,
+        "residual_zscore": -2.5736623476235447
+      },
+      {
+        "Country": "Chad",
+        "GDPpc": 709.0909090909091,
+        "LifeExp": 54.0,
+        "fitted_LifeExp": 63.03961823714682,
+        "residual_LifeExp": -9.039618237146819,
+        "residual_zscore": -2.1692676281149885
+      },
+      {
+        "Country": "Angola",
+        "GDPpc": 2973.2956330505813,
+        "LifeExp": 60.8,
+        "fitted_LifeExp": 69.26725691343633,
+        "residual_LifeExp": -8.46725691343633,
+        "residual_zscore": -2.0319161539113506
+      },
+      {
+        "Country": "Central African Republic",
+        "GDPpc": 467.36842105263156,
+        "LifeExp": 52.8,
+        "fitted_LifeExp": 61.22853054823622,
+        "residual_LifeExp": -8.428530548236225,
+        "residual_zscore": -2.0226228576482486
+      },
+      {
+        "Country": "Namibia",
+        "GDPpc": 4967.871485943775,
+        "LifeExp": 63.4,
+        "fitted_LifeExp": 71.4973948819313,
+        "residual_LifeExp": -8.0973948819313,
+        "residual_zscore": -1.943159116748469
+      },
+      {
+        "Country": "Palau",
+        "GDPpc": 15777.777777777777,
+        "LifeExp": 69.1,
+        "fitted_LifeExp": 76.51798531203352,
+        "residual_LifeExp": -7.417985312033522,
+        "residual_zscore": -1.7801189144361247
+      },
+      {
+        "Country": "Cameroon",
+        "GDPpc": 1497.6816074188562,
+        "LifeExp": 58.9,
+        "fitted_LifeExp": 66.28798167787446,
+        "residual_LifeExp": -7.387981677874457,
+        "residual_zscore": -1.7729188413136108
+      },
+      {
+        "Country": "Gabon",
+        "GDPpc": 7677.419354838709,
+        "LifeExp": 66.2,
+        "fitted_LifeExp": 73.38853541923288,
+        "residual_LifeExp": -7.188535419232878,
+        "residual_zscore": -1.7250570510178755
+      },
+      {
+        "Country": "Saint Kitts and Nevis",
+        "GDPpc": 19811.32075471698,
+        "LifeExp": 71.3,
+        "fitted_LifeExp": 77.5070228648098,
+        "residual_LifeExp": -6.207022864809801,
+        "residual_zscore": -1.489520178216214
+      },
+      {
+        "Country": "Bahamas",
+        "GDPpc": 32982.005141388174,
+        "LifeExp": 73.8,
+        "fitted_LifeExp": 79.72146875649284,
+        "residual_LifeExp": -5.9214687564928425,
+        "residual_zscore": -1.4209947972768158
+      },
+      {
+        "Country": "Fiji",
+        "GDPpc": 6224.7191011235955,
+        "LifeExp": 67.3,
+        "fitted_LifeExp": 72.47724718668508,
+        "residual_LifeExp": -5.177247186685079,
+        "residual_zscore": -1.2424014411000335
+      },
+      {
+        "Country": "Mali",
+        "GDPpc": 890.6408952187182,
+        "LifeExp": 58.9,
+        "fitted_LifeExp": 64.02998748210705,
+        "residual_LifeExp": -5.1299874821070475,
+        "residual_zscore": -1.231060370651492
+      },
+      {
+        "Country": "Marshall Islands",
+        "GDPpc": 3745.762711864407,
+        "LifeExp": 65.2,
+        "fitted_LifeExp": 70.27064545834546,
+        "residual_LifeExp": -5.070645458345453,
+        "residual_zscore": -1.2168198653828217
+      },
+      {
+        "Country": "Guinea-Bissau",
+        "GDPpc": 697.9166666666666,
+        "LifeExp": 58.0,
+        "fitted_LifeExp": 62.97060952777869,
+        "residual_LifeExp": -4.9706095277786915,
+        "residual_zscore": -1.1928139062666403
+      },
+      {
+        "Country": "Papua New Guinea",
+        "GDPpc": 2843.9635535307516,
+        "LifeExp": 64.3,
+        "fitted_LifeExp": 69.07404560683935,
+        "residual_LifeExp": -4.774045606839351,
+        "residual_zscore": -1.1456438002552112
+      },
+      {
+        "Country": "Kuwait",
+        "GDPpc": 32009.501187648453,
+        "LifeExp": 75.4,
+        "fitted_LifeExp": 79.59143973009904,
+        "residual_LifeExp": -4.1914397300990345,
+        "residual_zscore": -1.0058339061637964
+      },
+      {
+        "Country": "Botswana",
+        "GDPpc": 7804.255319148936,
+        "LifeExp": 69.3,
+        "fitted_LifeExp": 73.45972350510527,
+        "residual_LifeExp": -4.159723505105276,
+        "residual_zscore": -0.9982228568517529
+      },
+      {
+        "Country": "Ghana",
+        "GDPpc": 2175.38161740825,
+        "LifeExp": 63.8,
+        "fitted_LifeExp": 67.90973419502058,
+        "residual_LifeExp": -4.109734195020579,
+        "residual_zscore": -0.9862267537781829
+      },
+      {
+        "Country": "Liechtenstein",
+        "GDPpc": 172368.42105263157,
+        "LifeExp": 83.0,
+        "fitted_LifeExp": 86.9059019803513,
+        "residual_LifeExp": -3.9059019803513024,
+        "residual_zscore": -0.9373124508453407
+      },
+      {
+        "Country": "Benin",
+        "GDPpc": 1219.4915254237287,
+        "LifeExp": 61.5,
+        "fitted_LifeExp": 65.39524818309894,
+        "residual_LifeExp": -3.8952481830989427,
+        "residual_zscore": -0.9347558232434057
+      },
+      {
+        "Country": "Brunei",
+        "GDPpc": 31108.545034642033,
+        "LifeExp": 75.7,
+        "fitted_LifeExp": 79.4674023090495,
+        "residual_LifeExp": -3.7674023090495012,
+        "residual_zscore": -0.9040762183432928
+      },
+      {
+        "Country": "Guinea",
+        "GDPpc": 1064.2129992169146,
+        "LifeExp": 61.2,
+        "fitted_LifeExp": 64.80352956995081,
+        "residual_LifeExp": -3.6035295699508083,
+        "residual_zscore": -0.8647511253214962
+      },
+      {
+        "Country": "Republic of the Congo",
+        "GDPpc": 2011.1524163568772,
+        "LifeExp": 64.3,
+        "fitted_LifeExp": 67.56870481740766,
+        "residual_LifeExp": -3.2687048174076665,
+        "residual_zscore": -0.7844021019746099
+      },
+      {
+        "Country": "Djibouti",
+        "GDPpc": 3408.6242299794662,
+        "LifeExp": 66.6,
+        "fitted_LifeExp": 69.86088429110998,
+        "residual_LifeExp": -3.2608842911099885,
+        "residual_zscore": -0.7825253839443439
+      },
+      {
+        "Country": "Luxembourg",
+        "GDPpc": 110232.55813953489,
+        "LifeExp": 82.1,
+        "fitted_LifeExp": 84.96371371328904,
+        "residual_LifeExp": -2.8637137132890444,
+        "residual_zscore": -0.6872150229640294
+      },
+      {
+        "Country": "Qatar",
+        "GDPpc": 64830.38869257951,
+        "LifeExp": 80.1,
+        "fitted_LifeExp": 82.65755794026745,
+        "residual_LifeExp": -2.5575579402674578,
+        "residual_zscore": -0.6137457911720164
+      },
+      {
+        "Country": "Russia",
+        "GDPpc": 11774.468379857311,
+        "LifeExp": 72.7,
+        "fitted_LifeExp": 75.24647515610351,
+        "residual_LifeExp": -2.5464751561035115,
+        "residual_zscore": -0.61108621813635
+      },
+      {
+        "Country": "Grenada",
+        "GDPpc": 10982.142857142857,
+        "LifeExp": 72.4,
+        "fitted_LifeExp": 74.94382231179614,
+        "residual_LifeExp": -2.5438223117961343,
+        "residual_zscore": -0.6104496061547982
+      },
+      {
+        "Country": "Latvia",
+        "GDPpc": 17863.874345549735,
+        "LifeExp": 74.7,
+        "fitted_LifeExp": 77.05748076300705,
+        "residual_LifeExp": -2.3574807630070467,
+        "residual_zscore": -0.565732597210783
+      },
+      {
+        "Country": "Burkina Faso",
+        "GDPpc": 775.0984251968504,
+        "LifeExp": 61.2,
+        "fitted_LifeExp": 63.42630898711806,
+        "residual_LifeExp": -2.2263089871180597,
+        "residual_zscore": -0.5342548644466895
+      },
+      {
+        "Country": "Micronesia",
+        "GDPpc": 3526.315789473684,
+        "LifeExp": 67.8,
+        "fitted_LifeExp": 70.00835895936967,
+        "residual_LifeExp": -2.2083589593696757,
+        "residual_zscore": -0.5299473358435097
+      },
+      {
+        "Country": "Guyana",
+        "GDPpc": 5466.155810983398,
+        "LifeExp": 69.8,
+        "fitted_LifeExp": 71.91266325472984,
+        "residual_LifeExp": -2.1126632547298385,
+        "residual_zscore": -0.5069829153581626
+      },
+      {
+        "Country": "Mauritania",
+        "GDPpc": 1675.4966887417218,
+        "LifeExp": 64.7,
+        "fitted_LifeExp": 66.77540066084637,
+        "residual_LifeExp": -2.0754006608463698,
+        "residual_zscore": -0.4980408852269745
+      },
+      {
+        "Country": "Comoros",
+        "GDPpc": 1398.3548766157462,
+        "LifeExp": 64.1,
+        "fitted_LifeExp": 65.98985172618299,
+        "residual_LifeExp": -1.8898517261829966,
+        "residual_zscore": -0.4535140825637327
+      },
+      {
+        "Country": "Iraq",
+        "GDPpc": 5954.9732892393795,
+        "LifeExp": 70.5,
+        "fitted_LifeExp": 72.28477741405663,
+        "residual_LifeExp": -1.7847774140566344,
+        "residual_zscore": -0.4282990460585948
+      },
+      {
+        "Country": "Lithuania",
+        "GDPpc": 19433.6917562724,
+        "LifeExp": 75.7,
+        "fitted_LifeExp": 77.42341110006453,
+        "residual_LifeExp": -1.7234111000645242,
+        "residual_zscore": -0.41357276504677176
+      },
+      {
+        "Country": "Gambia",
+        "GDPpc": 748.936170212766,
+        "LifeExp": 61.7,
+        "fitted_LifeExp": 63.277133956692026,
+        "residual_LifeExp": -1.5771339566920233,
+        "residual_zscore": -0.37847014638228543
+      },
+      {
+        "Country": "DR Congo",
+        "GDPpc": 545.2241041594654,
+        "LifeExp": 60.4,
+        "fitted_LifeExp": 61.89793211949359,
+        "residual_LifeExp": -1.4979321194935906,
+        "residual_zscore": -0.3594638148078204
+      },
+      {
+        "Country": "Bahrain",
+        "GDPpc": 25713.333333333332,
+        "LifeExp": 77.2,
+        "fitted_LifeExp": 78.6398865608204,
+        "residual_LifeExp": -1.4398865608203977,
+        "residual_zscore": -0.3455344266320926
+      },
+      {
+        "Country": "Denmark",
+        "GDPpc": 59807.56013745705,
+        "LifeExp": 81.0,
+        "fitted_LifeExp": 82.30720444755988,
+        "residual_LifeExp": -1.307204447559883,
+        "residual_zscore": -0.31369425312308763
+      },
+      {
+        "Country": "Saint Vincent and the Grenadines",
+        "GDPpc": 8250.0,
+        "LifeExp": 72.4,
+        "fitted_LifeExp": 73.7010365277786,
+        "residual_LifeExp": -1.3010365277785922,
+        "residual_zscore": -0.3122141166434981
+      },
+      {
+        "Country": "Mozambique",
+        "GDPpc": 491.60355614092856,
+        "LifeExp": 60.2,
+        "fitted_LifeExp": 61.44816736068303,
+        "residual_LifeExp": -1.248167360683027,
+        "residual_zscore": -0.29952692458548363
+      },
+      {
+        "Country": "Kazakhstan",
+        "GDPpc": 9733.117233927607,
+        "LifeExp": 73.2,
+        "fitted_LifeExp": 74.4192791871574,
+        "residual_LifeExp": -1.2192791871573974,
+        "residual_zscore": -0.29259453230734506
+      },
+      {
+        "Country": "Mongolia",
+        "GDPpc": 4287.925696594427,
+        "LifeExp": 69.7,
+        "fitted_LifeExp": 70.85793006900323,
+        "residual_LifeExp": -1.1579300690032284,
+        "residual_zscore": -0.2778723778386576
+      },
+      {
+        "Country": "Ireland",
+        "GDPpc": 77584.83033932136,
+        "LifeExp": 82.3,
+        "fitted_LifeExp": 83.43782511136337,
+        "residual_LifeExp": -1.1378251113633695,
+        "residual_zscore": -0.2730477234529725
+      },
+      {
+        "Country": "Laos",
+        "GDPpc": 2534.170153417015,
+        "LifeExp": 67.6,
+        "fitted_LifeExp": 68.5729798613544,
+        "residual_LifeExp": -0.9729798613544034,
+        "residual_zscore": -0.23348925371323276
+      },
+      {
+        "Country": "Hungary",
+        "GDPpc": 16475.946775844423,
+        "LifeExp": 75.8,
+        "fitted_LifeExp": 76.70609954343665,
+        "residual_LifeExp": -0.9060995434366532,
+        "residual_zscore": -0.21743975861167789
+      },
+      {
+        "Country": "Kenya",
+        "GDPpc": 1816.625451778581,
+        "LifeExp": 66.3,
+        "fitted_LifeExp": 67.12674732548184,
+        "residual_LifeExp": -0.8267473254818469,
+        "residual_zscore": -0.19839733966071812
+      },
+      {
+        "Country": "Libya",
+        "GDPpc": 7681.41592920354,
+        "LifeExp": 72.7,
+        "fitted_LifeExp": 73.39079643060217,
+        "residual_LifeExp": -0.6907964306021626,
+        "residual_zscore": -0.16577274561936106
+      },
+      {
+        "Country": "Mauritius",
+        "GDPpc": 11165.354330708662,
+        "LifeExp": 74.4,
+        "fitted_LifeExp": 75.01570280364142,
+        "residual_LifeExp": -0.6157028036414118,
+        "residual_zscore": -0.14775227508949995
+      },
+      {
+        "Country": "Bulgaria",
+        "GDPpc": 12320.916905444126,
+        "LifeExp": 74.9,
+        "fitted_LifeExp": 75.44356442380189,
+        "residual_LifeExp": -0.5435644238018824,
+        "residual_zscore": -0.13044098516273128
+      },
+      {
+        "Country": "Norway",
+        "GDPpc": 75390.65420560748,
+        "LifeExp": 82.8,
+        "fitted_LifeExp": 83.31318651328613,
+        "residual_LifeExp": -0.5131865132861293,
+        "residual_zscore": -0.12315109568257594
+      },
+      {
+        "Country": "Germany",
+        "GDPpc": 46260.43546252857,
+        "LifeExp": 80.9,
+        "fitted_LifeExp": 81.19133277706575,
+        "residual_LifeExp": -0.29133277706574745,
+        "residual_zscore": -0.06991210753796863
+      },
+      {
+        "Country": "Romania",
+        "GDPpc": 12917.355371900827,
+        "LifeExp": 75.4,
+        "fitted_LifeExp": 75.6489453050718,
+        "residual_LifeExp": -0.2489453050717998,
+        "residual_zscore": -0.0597402431492438
+      },
+      {
+        "Country": "Antigua and Barbuda",
+        "GDPpc": 17835.05154639175,
+        "LifeExp": 76.9,
+        "fitted_LifeExp": 77.05046533420503,
+        "residual_LifeExp": -0.15046533420502328,
+        "residual_zscore": -0.03610767292176114
+      },
+      {
+        "Country": "Iceland",
+        "GDPpc": 67008.31024930748,
+        "LifeExp": 82.7,
+        "fitted_LifeExp": 82.80111083563672,
+        "residual_LifeExp": -0.10111083563671741,
+        "residual_zscore": -0.024263907705425438
+      },
+      {
+        "Country": "Estonia",
+        "GDPpc": 23601.503759398496,
+        "LifeExp": 78.2,
+        "fitted_LifeExp": 78.26756338289789,
+        "residual_LifeExp": -0.06756338289788744,
+        "residual_zscore": -0.01621341250497427
+      },
+      {
+        "Country": "Niger",
+        "GDPpc": 554.6975546975547,
+        "LifeExp": 62.0,
+        "fitted_LifeExp": 61.97277151965875,
+        "residual_LifeExp": 0.02722848034125036,
+        "residual_zscore": 0.006534110115877846
+      },
+      {
+        "Country": "Austria",
+        "GDPpc": 50260.13513513513,
+        "LifeExp": 81.6,
+        "fitted_LifeExp": 81.55160385139281,
+        "residual_LifeExp": 0.048396148607182,
+        "residual_zscore": 0.011613786749042346
+      },
+      {
+        "Country": "Netherlands",
+        "GDPpc": 52456.433929601844,
+        "LifeExp": 81.8,
+        "fitted_LifeExp": 81.7374229026106,
+        "residual_LifeExp": 0.06257709738939354,
+        "residual_zscore": 0.015016836780823077
+      },
+      {
+        "Country": "Dominican Republic",
+        "GDPpc": 8281.191806331472,
+        "LifeExp": 73.9,
+        "fitted_LifeExp": 73.71743147402066,
+        "residual_LifeExp": 0.1825685259793488,
+        "residual_zscore": 0.043811583955192426
+      },
+      {
+        "Country": "Finland",
+        "GDPpc": 48688.40579710145,
+        "LifeExp": 81.7,
+        "fitted_LifeExp": 81.41357241231708,
+        "residual_LifeExp": 0.28642758768292254,
+        "residual_zscore": 0.06873499272417495
+      },
+      {
+        "Country": "Haiti",
+        "GDPpc": 754.8845470692718,
+        "LifeExp": 63.7,
+        "fitted_LifeExp": 63.31150381941426,
+        "residual_LifeExp": 0.3884961805857401,
+        "residual_zscore": 0.09322873666586759
+      },
+      {
+        "Country": "Belgium",
+        "GDPpc": 46133.275261324045,
+        "LifeExp": 81.6,
+        "fitted_LifeExp": 81.17937412606149,
+        "residual_LifeExp": 0.4206258739385049,
+        "residual_zscore": 0.10093900737232309
+      },
+      {
+        "Country": "Mexico",
+        "GDPpc": 9985.63606063011,
+        "LifeExp": 75.0,
+        "fitted_LifeExp": 74.53055766397361,
+        "residual_LifeExp": 0.46944233602638974,
+        "residual_zscore": 0.11265365816268379
+      },
+      {
+        "Country": "Canada",
+        "GDPpc": 46943.22789943228,
+        "LifeExp": 81.9,
+        "fitted_LifeExp": 81.25498837610576,
+        "residual_LifeExp": 0.6450116238942485,
+        "residual_zscore": 0.15478561137923436
+      },
+      {
+        "Country": "Moldova",
+        "GDPpc": 4496.2406015037595,
+        "LifeExp": 71.8,
+        "fitted_LifeExp": 71.06402834125876,
+        "residual_LifeExp": 0.735971658741235,
+        "residual_zscore": 0.17661359723763476
+      },
+      {
+        "Country": "Indonesia",
+        "GDPpc": 4142.079940784604,
+        "LifeExp": 71.5,
+        "fitted_LifeExp": 70.70758735446736,
+        "residual_LifeExp": 0.7924126455326359,
+        "residual_zscore": 0.19015793089570038
+      },
+      {
+        "Country": "Czech Republic",
+        "GDPpc": 23101.218369259608,
+        "LifeExp": 79.0,
+        "fitted_LifeExp": 78.17448145730762,
+        "residual_LifeExp": 0.8255185426923788,
+        "residual_zscore": 0.19810246451695662
+      },
+      {
+        "Country": "Australia",
+        "GDPpc": 54042.685292976326,
+        "LifeExp": 82.7,
+        "fitted_LifeExp": 81.86685179414178,
+        "residual_LifeExp": 0.8331482058582225,
+        "residual_zscore": 0.1999333804787694
+      },
+      {
+        "Country": "Myanmar",
+        "GDPpc": 1407.7705827937095,
+        "LifeExp": 66.9,
+        "fitted_LifeExp": 66.01900723092207,
+        "residual_LifeExp": 0.8809927690779347,
+        "residual_zscore": 0.2114148014249908
+      },
+      {
+        "Country": "Saint Lucia",
+        "GDPpc": 11584.699453551913,
+        "LifeExp": 76.1,
+        "fitted_LifeExp": 75.1758839814453,
+        "residual_LifeExp": 0.9241160185546988,
+        "residual_zscore": 0.22176323281390276
+      },
+      {
+        "Country": "China",
+        "GDPpc": 14244.626963912659,
+        "LifeExp": 77.0,
+        "fitted_LifeExp": 76.07387539397536,
+        "residual_LifeExp": 0.9261246060246435,
+        "residual_zscore": 0.22224524031272427
+      },
+      {
+        "Country": "Malaysia",
+        "GDPpc": 11238.828967642527,
+        "LifeExp": 76.0,
+        "fitted_LifeExp": 75.04419874506411,
+        "residual_LifeExp": 0.9558012549358921,
+        "residual_zscore": 0.2293668456842388
+      },
+      {
+        "Country": "New Zealand",
+        "GDPpc": 42754.13223140496,
+        "LifeExp": 81.9,
+        "fitted_LifeExp": 80.84889137032224,
+        "residual_LifeExp": 1.0511086296777705,
+        "residual_zscore": 0.2522380773363219
+      },
+      {
+        "Country": "Pakistan",
+        "GDPpc": 1405.5501685367317,
+        "LifeExp": 67.1,
+        "fitted_LifeExp": 66.01214938112855,
+        "residual_LifeExp": 1.0878506188714425,
+        "residual_zscore": 0.26105517620703045
+      },
+      {
+        "Country": "Poland",
+        "GDPpc": 15595.470107979983,
+        "LifeExp": 77.6,
+        "fitted_LifeExp": 76.46749320800954,
+        "residual_LifeExp": 1.1325067919904512,
+        "residual_zscore": 0.27177146844429423
+      },
+      {
+        "Country": "Philippines",
+        "GDPpc": 3485.0166481687015,
+        "LifeExp": 71.1,
+        "fitted_LifeExp": 69.95717679983711,
+        "residual_LifeExp": 1.14282320016288,
+        "residual_zscore": 0.274247131652604
+      },
+      {
+        "Country": "Bolivia",
+        "GDPpc": 3553.4317984361423,
+        "LifeExp": 71.2,
+        "fitted_LifeExp": 70.04163895334894,
+        "residual_LifeExp": 1.1583610466510663,
+        "residual_zscore": 0.2779758009960653
+      },
+      {
+        "Country": "Liberia",
+        "GDPpc": 621.4574898785426,
+        "LifeExp": 63.7,
+        "fitted_LifeExp": 62.466503787797365,
+        "residual_LifeExp": 1.2334962122026383,
+        "residual_zscore": 0.2960062396814416
+      },
+      {
+        "Country": "Kiribati",
+        "GDPpc": 1652.542372881356,
+        "LifeExp": 68.1,
+        "fitted_LifeExp": 66.71546905065439,
+        "residual_LifeExp": 1.3845309493456028,
+        "residual_zscore": 0.3322505541436086
+      },
+      {
+        "Country": "Oman",
+        "GDPpc": 14607.210626185959,
+        "LifeExp": 77.6,
+        "fitted_LifeExp": 76.18307743052267,
+        "residual_LifeExp": 1.4169225694773218,
+        "residual_zscore": 0.3400236803012143
+      },
+      {
+        "Country": "Belarus",
+        "GDPpc": 6661.0348468849,
+        "LifeExp": 74.2,
+        "fitted_LifeExp": 72.7715742729493,
+        "residual_LifeExp": 1.4284257270507084,
+        "residual_zscore": 0.3427841317594973
+      },
+      {
+        "Country": "Bhutan",
+        "GDPpc": 3370.0137551581843,
+        "LifeExp": 71.5,
+        "fitted_LifeExp": 69.81139166263546,
+        "residual_LifeExp": 1.688608337364542,
+        "residual_zscore": 0.40522102888784317
+      },
+      {
+        "Country": "Brazil",
+        "GDPpc": 8655.25028227324,
+        "LifeExp": 75.7,
+        "fitted_LifeExp": 73.90936952012655,
+        "residual_LifeExp": 1.7906304798734567,
+        "residual_zscore": 0.42970362597209527
+      },
+      {
+        "Country": "Panama",
+        "GDPpc": 15717.64705882353,
+        "LifeExp": 78.3,
+        "fitted_LifeExp": 76.50139622161892,
+        "residual_LifeExp": 1.7986037783810787,
+        "residual_zscore": 0.4316170052640222
+      },
+      {
+        "Country": "Croatia",
+        "GDPpc": 14845.208845208843,
+        "LifeExp": 78.1,
+        "fitted_LifeExp": 76.25329330419905,
+        "residual_LifeExp": 1.8467066958009468,
+        "residual_zscore": 0.4431604243376294
+      },
+      {
+        "Country": "Israel",
+        "GDPpc": 43657.45856353591,
+        "LifeExp": 82.8,
+        "fitted_LifeExp": 80.93972812534858,
+        "residual_LifeExp": 1.860271874651417,
+        "residual_zscore": 0.4464157059853645
+      },
+      {
+        "Country": "France",
+        "GDPpc": 40493.88607217417,
+        "LifeExp": 82.5,
+        "fitted_LifeExp": 80.6129187005512,
+        "residual_LifeExp": 1.8870812994487949,
+        "residual_zscore": 0.45284925393126657
+      },
+      {
+        "Country": "Argentina",
+        "GDPpc": 10005.785491766801,
+        "LifeExp": 76.5,
+        "fitted_LifeExp": 74.53931541068167,
+        "residual_LifeExp": 1.9606845893183333,
+        "residual_zscore": 0.4705120832508318
+      },
+      {
+        "Country": "Barbados",
+        "GDPpc": 18153.310104529617,
+        "LifeExp": 79.1,
+        "fitted_LifeExp": 77.12730800611163,
+        "residual_LifeExp": 1.9726919938883611,
+        "residual_zscore": 0.47339354055888544
+      },
+      {
+        "Country": "India",
+        "GDPpc": 1910.8326868751922,
+        "LifeExp": 69.4,
+        "fitted_LifeExp": 67.34640030592871,
+        "residual_LifeExp": 2.053599694071295,
+        "residual_zscore": 0.4928092338180144
+      },
+      {
+        "Country": "Cape Verde",
+        "GDPpc": 4090.909090909091,
+        "LifeExp": 72.8,
+        "fitted_LifeExp": 70.65358113132879,
+        "residual_LifeExp": 2.146418868671205,
+        "residual_zscore": 0.5150833637033368
+      },
+      {
+        "Country": "Paraguay",
+        "GDPpc": 5419.034090909091,
+        "LifeExp": 74.1,
+        "fitted_LifeExp": 71.8750482640394,
+        "residual_LifeExp": 2.2249517359605875,
+        "residual_zscore": 0.5339291603160573
+      },
+      {
+        "Country": "Georgia",
+        "GDPpc": 4768.817204301075,
+        "LifeExp": 73.6,
+        "fitted_LifeExp": 71.31973315684384,
+        "residual_LifeExp": 2.2802668431561557,
+        "residual_zscore": 0.5472033128562569
+      },
+      {
+        "Country": "Ethiopia",
+        "GDPpc": 857.5124910778015,
+        "LifeExp": 66.2,
+        "fitted_LifeExp": 63.86530549566943,
+        "residual_LifeExp": 2.334694504330571,
+        "residual_zscore": 0.5602645019864004
+      },
+      {
+        "Country": "El Salvador",
+        "GDPpc": 4189.147286821705,
+        "LifeExp": 73.1,
+        "fitted_LifeExp": 70.75667683906032,
+        "residual_LifeExp": 2.3433231609396756,
+        "residual_zscore": 0.562335149768774
+      },
+      {
+        "Country": "Jamaica",
+        "GDPpc": 5579.661016949152,
+        "LifeExp": 74.4,
+        "fitted_LifeExp": 72.00195398023735,
+        "residual_LifeExp": 2.39804601976266,
+        "residual_zscore": 0.5754671784726847
+      },
+      {
+        "Country": "Azerbaijan",
+        "GDPpc": 3913.1736526946106,
+        "LifeExp": 72.9,
+        "fitted_LifeExp": 70.460603497221,
+        "residual_LifeExp": 2.4393965027790045,
+        "residual_zscore": 0.5853901931245277
+      },
+      {
+        "Country": "Egypt",
+        "GDPpc": 3020.02191453332,
+        "LifeExp": 71.8,
+        "fitted_LifeExp": 69.33500169589163,
+        "residual_LifeExp": 2.464998304108363,
+        "residual_zscore": 0.5915339436002931
+      },
+      {
+        "Country": "Burundi",
+        "GDPpc": 261.05810928013875,
+        "LifeExp": 61.2,
+        "fitted_LifeExp": 58.69838372191252,
+        "residual_LifeExp": 2.501616278087482,
+        "residual_zscore": 0.6003212821223601
+      },
+      {
+        "Country": "Montenegro",
+        "GDPpc": 8826.36655948553,
+        "LifeExp": 76.8,
+        "fitted_LifeExp": 73.994423906864,
+        "residual_LifeExp": 2.805576093135997,
+        "residual_zscore": 0.6732635424849702
+      },
+      {
+        "Country": "Dominica",
+        "GDPpc": 8277.777777777777,
+        "LifeExp": 76.6,
+        "fitted_LifeExp": 73.7156400146311,
+        "residual_LifeExp": 2.8843599853688886,
+        "residual_zscore": 0.6921695783986787
+      },
+      {
+        "Country": "Cambodia",
+        "GDPpc": 1642.8138265615526,
+        "LifeExp": 69.6,
+        "fitted_LifeExp": 66.68981712523379,
+        "residual_LifeExp": 2.910182874766207,
+        "residual_zscore": 0.6983663841225979
+      },
+      {
+        "Country": "Guatemala",
+        "GDPpc": 4621.084337349397,
+        "LifeExp": 74.1,
+        "fitted_LifeExp": 71.18301536161144,
+        "residual_LifeExp": 2.9169846383885556,
+        "residual_zscore": 0.6999986262431134
+      },
+      {
+        "Country": "Afghanistan",
+        "GDPpc": 502.1030494216614,
+        "LifeExp": 64.5,
+        "fitted_LifeExp": 61.539979360334925,
+        "residual_LifeExp": 2.960020639665075,
+        "residual_zscore": 0.7103261203876154
+      },
+      {
+        "Country": "Malta",
+        "GDPpc": 29403.578528827038,
+        "LifeExp": 82.3,
+        "fitted_LifeExp": 79.22251767112809,
+        "residual_LifeExp": 3.077482328871909,
+        "residual_zscore": 0.7385137974836467
+      },
+      {
+        "Country": "Portugal",
+        "GDPpc": 23144.10905550146,
+        "LifeExp": 81.3,
+        "fitted_LifeExp": 78.18254022026652,
+        "residual_LifeExp": 3.1174597797334798,
+        "residual_zscore": 0.7481073209858001
+      },
+      {
+        "Country": "Malawi",
+        "GDPpc": 411.70155662909286,
+        "LifeExp": 63.8,
+        "fitted_LifeExp": 60.67756054729857,
+        "residual_LifeExp": 3.1224394527014283,
+        "residual_zscore": 0.7493023098763243
+      },
+      {
+        "Country": "Belize",
+        "GDPpc": 4820.51282051282,
+        "LifeExp": 74.5,
+        "fitted_LifeExp": 71.36657594953158,
+        "residual_LifeExp": 3.1334240504684203,
+        "residual_zscore": 0.7519383207916835
+      },
+      {
+        "Country": "Italy",
+        "GDPpc": 33188.05970149254,
+        "LifeExp": 82.9,
+        "fitted_LifeExp": 79.74852672547217,
+        "residual_LifeExp": 3.151473274527831,
+        "residual_zscore": 0.7562696538676511
+      },
+      {
+        "Country": "Cyprus",
+        "GDPpc": 20466.666666666668,
+        "LifeExp": 80.8,
+        "fitted_LifeExp": 77.64841142819262,
+        "residual_LifeExp": 3.1515885718073804,
+        "residual_zscore": 0.7562973221440733
+      },
+      {
+        "Country": "Jordan",
+        "GDPpc": 4330.693069306931,
+        "LifeExp": 74.4,
+        "fitted_LifeExp": 70.90104737185632,
+        "residual_LifeExp": 3.498952628143684,
+        "residual_zscore": 0.8396554444466905
+      },
+      {
+        "Country": "Peru",
+        "GDPpc": 6977.852968317442,
+        "LifeExp": 76.5,
+        "fitted_LifeExp": 72.97344916607526,
+        "residual_LifeExp": 3.5265508339247447,
+        "residual_zscore": 0.8462782788213651
+      },
+      {
+        "Country": "Japan",
+        "GDPpc": 40258.02107264517,
+        "LifeExp": 84.2,
+        "fitted_LifeExp": 80.5875390833296,
+        "residual_LifeExp": 3.6124609166704005,
+        "residual_zscore": 0.8668944106689477
+      },
+      {
+        "Country": "Armenia",
+        "GDPpc": 4618.243243243243,
+        "LifeExp": 74.9,
+        "fitted_LifeExp": 71.1803434727567,
+        "residual_LifeExp": 3.719656527243302,
+        "residual_zscore": 0.8926185023055001
+      },
+      {
+        "Country": "Chile",
+        "GDPpc": 14898.15303430079,
+        "LifeExp": 80.0,
+        "fitted_LifeExp": 76.2687601524773,
+        "residual_LifeExp": 3.7312398475227013,
+        "residual_zscore": 0.8953981906782825
+      },
+      {
+        "Country": "Maldives",
+        "GDPpc": 10790.9604519774,
+        "LifeExp": 78.6,
+        "fitted_LifeExp": 74.86752453730938,
+        "residual_LifeExp": 3.7324754626906156,
+        "residual_zscore": 0.8956947054109015
+      },
+      {
+        "Country": "Greece",
+        "GDPpc": 19575.559701492537,
+        "LifeExp": 81.3,
+        "fitted_LifeExp": 77.45501143583797,
+        "residual_LifeExp": 3.8449885641620227,
+        "residual_zscore": 0.9226948532443321
+      },
+      {
+        "Country": "Ecuador",
+        "GDPpc": 6185.377086931491,
+        "LifeExp": 76.8,
+        "fitted_LifeExp": 72.44970134679775,
+        "residual_LifeExp": 4.350298653202245,
+        "residual_zscore": 1.0439558168777736
+      },
+      {
+        "Country": "Colombia",
+        "GDPpc": 6432.260627731426,
+        "LifeExp": 77.1,
+        "fitted_LifeExp": 72.61973803477173,
+        "residual_LifeExp": 4.480261965228266,
+        "residual_zscore": 1.0751435504993252
+      },
+      {
+        "Country": "Iran",
+        "GDPpc": 5371.48715474611,
+        "LifeExp": 76.5,
+        "fitted_LifeExp": 71.8367608491442,
+        "residual_LifeExp": 4.6632391508558015,
+        "residual_zscore": 1.1190532018864043
+      },
+      {
+        "Country": "Costa Rica",
+        "GDPpc": 12231.683168316831,
+        "LifeExp": 80.1,
+        "fitted_LifeExp": 75.41198482379491,
+        "residual_LifeExp": 4.688015176205084,
+        "residual_zscore": 1.1249987881195371
+      },
+      {
+        "Country": "Cuba",
+        "GDPpc": 8827.890556045895,
+        "LifeExp": 78.7,
+        "fitted_LifeExp": 73.99517398699474,
+        "residual_LifeExp": 4.70482601300526,
+        "residual_zscore": 1.1290329412347968
+      },
+      {
+        "Country": "Bosnia and Herzegovina",
+        "GDPpc": 6075.757575757576,
+        "LifeExp": 77.3,
+        "fitted_LifeExp": 72.37201550229148,
+        "residual_LifeExp": 4.927984497708522,
+        "residual_zscore": 1.1825850342664128
+      },
+      {
+        "Country": "Madagascar",
+        "GDPpc": 522.0615498702261,
+        "LifeExp": 66.7,
+        "fitted_LifeExp": 61.70932977118931,
+        "residual_LifeExp": 4.990670228810693,
+        "residual_zscore": 1.197627940245104
+      },
+      {
+        "Country": "Rwanda",
+        "GDPpc": 801.2668250197942,
+        "LifeExp": 68.7,
+        "fitted_LifeExp": 63.57056480363681,
+        "residual_LifeExp": 5.12943519636319,
+        "residual_zscore": 1.230927836781782
+      },
+      {
+        "Country": "Bangladesh",
+        "GDPpc": 1808.4394238240393,
+        "LifeExp": 72.3,
+        "fitted_LifeExp": 67.10712586639622,
+        "residual_LifeExp": 5.19287413360378,
+        "residual_zscore": 1.246151492173834
+      },
+      {
+        "Country": "Lebanon",
+        "GDPpc": 7779.883381924198,
+        "LifeExp": 78.9,
+        "fitted_LifeExp": 73.44613471717861,
+        "residual_LifeExp": 5.453865282821397,
+        "residual_zscore": 1.308782417105571
+      },
+      {
+        "Country": "Nepal",
+        "GDPpc": 1070.954211814051,
+        "LifeExp": 70.5,
+        "fitted_LifeExp": 64.83096303691553,
+        "residual_LifeExp": 5.669036963084466,
+        "residual_zscore": 1.3604178897811416
+      },
+      {
+        "Country": "Kyrgyzstan",
+        "GDPpc": 1308.049535603715,
+        "LifeExp": 71.4,
+        "fitted_LifeExp": 65.69981358018948,
+        "residual_LifeExp": 5.700186419810521,
+        "residual_zscore": 1.3678929298034654
+      },
+      {
+        "Country": "Algeria",
+        "GDPpc": 3948.664343786295,
+        "LifeExp": 76.7,
+        "fitted_LifeExp": 70.4998288119464,
+        "residual_LifeExp": 6.200171188053602,
+        "residual_zscore": 1.4878759582728869
+      },
+      {
+        "Country": "Eritrea",
+        "GDPpc": 327.0142180094786,
+        "LifeExp": 65.9,
+        "fitted_LifeExp": 59.67703600382214,
+        "residual_LifeExp": 6.222963996177867,
+        "residual_zscore": 1.4933456251903043
+      },
+      {
+        "Country": "Honduras",
+        "GDPpc": 2574.358974358974,
+        "LifeExp": 75.1,
+        "fitted_LifeExp": 68.64133819564798,
+        "residual_LifeExp": 6.458661804352019,
+        "residual_zscore": 1.549906821899782
+      },
+      {
+        "Country": "North Korea",
+        "GDPpc": 1250.4869497467862,
+        "LifeExp": 72.1,
+        "fitted_LifeExp": 65.50429182217997,
+        "residual_LifeExp": 6.595708177820029,
+        "residual_zscore": 1.5827943016268622
+      },
+      {
+        "Country": "Albania",
+        "GDPpc": 5361.403508771929,
+        "LifeExp": 78.5,
+        "fitted_LifeExp": 71.82859739170127,
+        "residual_LifeExp": 6.6714026082987345,
+        "residual_zscore": 1.6009589490000553
+      },
+      {
+        "Country": "Morocco",
+        "GDPpc": 3216.7434299647794,
+        "LifeExp": 76.5,
+        "fitted_LifeExp": 69.60916521651686,
+        "residual_LifeExp": 6.890834783483143,
+        "residual_zscore": 1.653616826988566
+      },
+      {
+        "Country": "Nicaragua",
+        "GDPpc": 1911.4503816793892,
+        "LifeExp": 74.3,
+        "fitted_LifeExp": 67.34780449059488,
+        "residual_LifeExp": 6.952195509405115,
+        "residual_zscore": 1.6683417670123808
+      }
+    ]
+  }
+}

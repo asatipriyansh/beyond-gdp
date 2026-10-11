@@ -1,0 +1,26 @@
+{
+  "name": "beyond-gdp",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Beyond GDP: What Really Makes a Country Livable? — Exploratory Data Analysis (BACSE301)",
+  "scripts": {
+    "dev": "npm --prefix frontend run dev",
+    "build": "npm --prefix frontend run build",
+    "start": "npm --prefix frontend run start",
+    "lint": "npm --prefix frontend run lint",
+    "test": "python3 -m unittest discover -s tests -p 'test_*.py'",
+    "data:process": "python3 backend/scripts/process_data.py",
+    "setup:frontend": "cd frontend && npm install",
+    "setup:backend": "pip install -r backend/requirements.txt"
+  },
+  "keywords": [
+    "eda",
+    "beyond-gdp",
+    "data-science",
+    "nextjs",
+    "livability-index",
+    "recharts"
+  ],
+  "author": "Priyansh Asati, Medisetty Venkata Guru Sri Harsha, Nayani Balaji",
+  "license": "MIT"
+}

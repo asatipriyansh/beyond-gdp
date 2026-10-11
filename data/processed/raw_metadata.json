@@ -1,0 +1,1112 @@
+{
+  "raw_row_count": 146,
+  "clean_row_count": 141,
+  "index_row_count": 131,
+  "missing_counts": {
+    "Country": 0,
+    "GDP_bn": 0,
+    "Pop_m": 0,
+    "LifeExp": 5,
+    "CO2_kt": 4,
+    "InfMort": 4,
+    "Phys": 4,
+    "Unemp": 14,
+    "Tertiary": 7,
+    "Forest": 4
+  },
+  "duplicate_rows": 0,
+  "duplicate_countries": 0,
+  "tertiary_clipped_countries": [
+    "Australia",
+    "Greece",
+    "Grenada"
+  ],
+  "dropped_from_clean": [
+    "Andorra",
+    "Eswatini",
+    "Monaco",
+    "Nauru",
+    "North Macedonia"
+  ],
+  "countries": {
+    "Afghanistan": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "Albania": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "Algeria": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "Andorra": {
+      "has_life_exp": false,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [
+        "LifeExp",
+        "Unemp",
+        "Tertiary"
+      ],
+      "missing_count": 3
+    },
+    "Angola": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "Antigua and Barbuda": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [
+        "Unemp"
+      ],
+      "missing_count": 1
+    },
+    "Argentina": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "Armenia": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "Australia": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "Austria": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "Azerbaijan": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "Bahamas": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "Bahrain": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "Bangladesh": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "Barbados": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "Belarus": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "Belgium": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "Belize": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "Benin": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "Bhutan": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "Bolivia": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [
+        "Tertiary"
+      ],
+      "missing_count": 1
+    },
+    "Bosnia and Herzegovina": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "Botswana": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "Brazil": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "Brunei": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "Bulgaria": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "Burkina Faso": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "Burundi": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "Ivory Coast": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "Cape Verde": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "Cambodia": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "Cameroon": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "Canada": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "Central African Republic": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "Chad": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "Chile": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "China": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "Colombia": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "Comoros": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "Republic of the Congo": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "Costa Rica": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "Croatia": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "Cuba": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "Cyprus": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "Czech Republic": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "DR Congo": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "Denmark": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "Djibouti": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "Dominica": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [
+        "Unemp"
+      ],
+      "missing_count": 1
+    },
+    "Dominican Republic": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "Ecuador": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "Egypt": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "El Salvador": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "Equatorial Guinea": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "Eritrea": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "Estonia": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "Eswatini": {
+      "has_life_exp": false,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [
+        "LifeExp",
+        "CO2_kt",
+        "InfMort",
+        "Phys",
+        "Unemp",
+        "Tertiary",
+        "Forest"
+      ],
+      "missing_count": 7
+    },
+    "Ethiopia": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "Fiji": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "Finland": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "France": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "Gabon": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "Gambia": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "Georgia": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "Germany": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "Ghana": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "Greece": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "Grenada": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [
+        "Unemp"
+      ],
+      "missing_count": 1
+    },
+    "Guatemala": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "Guinea": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "Guinea-Bissau": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "Guyana": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "Haiti": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "Honduras": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "Hungary": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "Iceland": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "India": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "Indonesia": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "Iran": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "Iraq": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "Ireland": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "Israel": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "Italy": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "Jamaica": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "Japan": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "Jordan": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "Kazakhstan": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "Kenya": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "Kiribati": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [
+        "Unemp",
+        "Tertiary"
+      ],
+      "missing_count": 2
+    },
+    "Kuwait": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "Kyrgyzstan": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "Laos": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "Latvia": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "Lebanon": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "Lesotho": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "Liberia": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "Libya": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "Liechtenstein": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [
+        "InfMort",
+        "Phys",
+        "Unemp"
+      ],
+      "missing_count": 3
+    },
+    "Lithuania": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "Luxembourg": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "Madagascar": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "Malawi": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "Malaysia": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "Maldives": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "Mali": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "Malta": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "Marshall Islands": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [
+        "Unemp"
+      ],
+      "missing_count": 1
+    },
+    "Mauritania": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "Mauritius": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "Mexico": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "Micronesia": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [
+        "Unemp"
+      ],
+      "missing_count": 1
+    },
+    "Moldova": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "Monaco": {
+      "has_life_exp": false,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [
+        "LifeExp",
+        "CO2_kt",
+        "Unemp",
+        "Tertiary",
+        "Forest"
+      ],
+      "missing_count": 5
+    },
+    "Mongolia": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "Montenegro": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "Morocco": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "Mozambique": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "Myanmar": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "Namibia": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "Nauru": {
+      "has_life_exp": false,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [
+        "LifeExp",
+        "CO2_kt",
+        "InfMort",
+        "Phys",
+        "Unemp",
+        "Tertiary",
+        "Forest"
+      ],
+      "missing_count": 7
+    },
+    "Nepal": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "Netherlands": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "New Zealand": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "Nicaragua": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "Niger": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "Nigeria": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "North Korea": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "North Macedonia": {
+      "has_life_exp": false,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [
+        "LifeExp",
+        "CO2_kt",
+        "InfMort",
+        "Phys",
+        "Unemp",
+        "Tertiary",
+        "Forest"
+      ],
+      "missing_count": 7
+    },
+    "Norway": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "Oman": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "Pakistan": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "Palau": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [
+        "Unemp"
+      ],
+      "missing_count": 1
+    },
+    "Panama": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "Papua New Guinea": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "Paraguay": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "Peru": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "Philippines": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "Poland": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "Portugal": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "Qatar": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "Romania": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "Russia": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "Rwanda": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "Saint Kitts and Nevis": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [
+        "Unemp"
+      ],
+      "missing_count": 1
+    },
+    "Saint Lucia": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    },
+    "Saint Vincent and the Grenadines": {
+      "has_life_exp": true,
+      "has_gdp": true,
+      "has_pop": true,
+      "missing_columns": [],
+      "missing_count": 0
+    }
+  }
+}

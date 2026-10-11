@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-dm-serif: 'DM Serif Display', Georgia, serif;
+  --font-inter: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --bg-primary: #F5F7F4;
+  --text-primary: #172F3B;
+  --text-muted: #526570;
+  --navy: #102A36;
+  --teal: #159A91;
+  --deep-teal: #0D7377;
+  --border: #DCE5E2;
+}
+
+body {
+  font-family: var(--font-inter);
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, .font-serif {
+  font-family: var(--font-dm-serif);
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #E8EFEF;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #B4C6C4;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #0D7377;
+}
+
+/* Editorial subtle borders and card effects */
+.editorial-card {
+  background: #FFFFFF;
+  border: 1px solid #DCE5E2;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(16, 42, 54, 0.05);
+  transition: all 0.2s ease-in-out;
+}
+
+.editorial-card:hover {
+  box-shadow: 0 4px 12px rgba(16, 42, 54, 0.08);
+}
+
+.dark-card {
+  background: #173746;
+  border: 1px solid rgba(220, 229, 226, 0.15);
+  border-radius: 8px;
+}
+
+/* Chart Tooltip Customization */
+.custom-chart-tooltip {
+  background: rgba(16, 42, 54, 0.95);
+  color: #FFFFFF;
+  border: 1px solid #159A91;
+  border-radius: 6px;
+  padding: 8px 12px;
+  font-size: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
